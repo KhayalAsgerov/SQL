@@ -29,4 +29,4 @@ SELECT dbo.FormatPhoneNumber('0501112222') AS FormattedNumber1;
 SELECT dbo.FormatPhoneNumber('501112222') AS FormattedNumber2;
 SELECT dbo.FormatPhoneNumber('9940501112222') AS FormattedNumber3;
 SELECT dbo.FormatPhoneNumber('+9940501112222') AS FormattedNumber4;
-SELECT dbo.FormatPhoneNumber('123') AS FormattedNumber5; -- Geçersiz numara, NULL dönmeli
+SELECT dbo.FormatPhoneNumber('123') AS FormattedNumber5;
